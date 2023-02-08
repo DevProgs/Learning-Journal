@@ -55,12 +55,24 @@ a {
   height: 100%;
 }
 
+
 .title {
   font-family: 'Roboto', sans-serif;
   font-size: .875rem;
   white-space: nowrap;
   margin-left: .5em;
   color: var(--title-color);
+}
+
+/* hero styles */
+
+.hero {
+  height: 30vh;
+  background: url(images/hero-image.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 

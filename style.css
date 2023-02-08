@@ -5,3 +5,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --title-color: #0E0E0E;
+  --links-color: #090909;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  height: 6vh;
+}
+
+image {
+  display: block;
+  width: 100%;
+}
+
+nav li {
+  margin-left: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--links-color);
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-container,
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  justify-content: space-between;
+  height: 100%;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: .875rem;
+  white-space: nowrap;
+  margin-left: .5em;
+  color: var(--title-color);
+}
+
+

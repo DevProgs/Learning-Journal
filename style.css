@@ -111,12 +111,43 @@ a {
   max-width: 374px;
 }
 
+/* Blog section */
+
+.blog {
+  padding-bottom: 45px;
+}
 
 .blog__image {
-  margin: 0 auto;
+  margin-top: 2.18em;
+  margin-bottom: .875em;
+  width: 100%;
+  border-radius: 3px;
 }
-/* .blog__post {
+
+.blog__date,
+.blog__post--number {
+  margin-bottom: .56em;
+}
+
+.blog__content {
+  margin-bottom: 2.56em;
+}
+
+.blog__button {
+  display: block;
   margin: 0 auto;
-} */
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5em;
+  text-decoration-line: underline;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
 
-
+/* Need to adjust this due to text overflow at 375px screensize */
+@media (max-width: 375px) {
+  .hero {
+    height: 40vh;
+  }
+}

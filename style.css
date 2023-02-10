@@ -9,6 +9,7 @@
 :root {
   --title-color: #0E0E0E;
   --links-color: #090909;
+  --footer-color: #202020;
 }
 
 body {
@@ -94,14 +95,25 @@ a {
   margin-bottom: .25em;
 }
 
-.hero__date {
+.hero__date,
+.hero__post,
+.footer__copyright {
   font-weight: 400;
+}
+
+.hero__date {
   font-size: .75rem;
   line-height: 1rem;
 }
 
-.hero__title {
+.hero__title,
+.blog__button,
+.footer__title {
   font-weight: 700;
+}
+
+.footer__title
+.hero__title {
   font-size: 2rem;
   letter-spacing: -0.03em;
   line-height: 108.2%;
@@ -109,7 +121,6 @@ a {
 }
 
 .hero__post {
-  font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
   max-width: 374px;
@@ -118,7 +129,7 @@ a {
 /* Blog section */
 
 .blog {
-  padding-bottom: 45px;
+  padding-bottom: 2.8em;
 }
 
 .blog__image {
@@ -140,7 +151,6 @@ a {
 .blog__button {
   display: block;
   margin: 0 auto;
-  font-weight: 700;
   font-size: 1rem;
   line-height: 1.5em;
   text-decoration-line: underline;
@@ -148,6 +158,21 @@ a {
   border: none;
   cursor: pointer;
 }
+
+/* footer styles */
+
+footer {
+  background-color: var(--footer-color);
+  padding: 2.3em 0;
+  color: white;
+  text-align: center;
+}
+
+.footer__title,
+.footer__copyright {
+  font-size: .75rem;
+}
+
 
 /* Need to adjust this due to text overflow at 375px screensize */
 @media (max-width: 375px) {

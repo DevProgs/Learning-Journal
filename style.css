@@ -16,8 +16,12 @@ body {
 }
 
 header {
-  height: 6vh;
+  padding: 1em 0;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
+
 
 img {
   display: block;

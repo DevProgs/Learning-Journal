@@ -177,6 +177,6 @@ footer {
 /* Need to adjust this due to text overflow at 375px screensize */
 @media (max-width: 375px) {
   .hero {
-    height: 40vh;
+    height: 45vh;
   }
 }

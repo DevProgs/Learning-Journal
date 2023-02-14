@@ -140,7 +140,7 @@ a {
 /* Blog section */
 
 .blog {
-  padding-bottom: 2.8em;
+  padding: 2.125em 0 2.8em;
 }
 
 .blog__image,

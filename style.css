@@ -115,7 +115,8 @@ a {
 
 .hero__title,
 .blog__button,
-.footer__title {
+.footer__title,
+.recent__post {
   font-weight: 700;
 }
 
@@ -144,7 +145,7 @@ a {
 
 .blog__image,
 .main__post--image {
-  margin-top: 2.18em;
+  /* margin-top: 2.18em; */
   margin-bottom: .875em;
   width: 100%;
   border-radius: 3px;
@@ -190,6 +191,10 @@ a {
   margin-bottom: 1.25em;
 }
 
+.recent__post {
+  text-align: center;
+}
+
 /* footer styles */
 
 footer {
@@ -197,6 +202,10 @@ footer {
   padding: 2.3em 0;
   color: white;
   text-align: center;
+}
+
+.footer__title {
+  margin: .25em auto;
 }
 
 .footer__title,

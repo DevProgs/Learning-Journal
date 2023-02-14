@@ -80,12 +80,12 @@ a {
 /* hero styles */
 
 .hero {
-  height: 30vh;
   background: url(images/hero-image.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  padding-top: 4em;
 }
 
 .hero-text-container {
@@ -103,6 +103,7 @@ a {
 
 .hero__date,
 .hero__post,
+.main__post--content,
 .footer__copyright {
   font-weight: 400;
 }
@@ -124,7 +125,7 @@ a {
   font-size: 2rem;
   letter-spacing: -0.03em;
   line-height: 108.2%;
-  max-width: 70%;
+  max-width: 374px;
 }
 
 .hero__post,
@@ -141,7 +142,8 @@ a {
   padding-bottom: 2.8em;
 }
 
-.blog__image {
+.blog__image,
+.main__post--image {
   margin-top: 2.18em;
   margin-bottom: .875em;
   width: 100%;
@@ -168,14 +170,24 @@ a {
   cursor: pointer;
 }
 
-/* Featured blog styles */
+/* Featured blog styles "blog.html"*/
 
 .main__post--date {
-  margin-bottom: 1em;
+  margin: 1em 0;
 }
 
 .main__post--title {
   margin-bottom: .5em;
+}
+
+
+.main__post--image {
+  margin-bottom: 2em;
+}
+
+.main__post--header,
+.main__post--content {
+  margin-bottom: 1.25em;
 }
 
 /* footer styles */

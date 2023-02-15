@@ -253,8 +253,9 @@ footer {
   }
 
 
-
-/* .nav-container {
-  max-width: 800px;
-} */
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
 }

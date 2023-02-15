@@ -237,13 +237,24 @@ footer {
 
   
   .hero__date {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
-  .footer__title,
-.hero__title,
-.main__post--title {
-  font-size: 3vw;
-  max-width: 100%;
-}
+ /* adjust these font sizes for tablets */
+  .hero__title,
+  .main__post--title {
+    font-size: 3rem;
+    max-width: 100%;
+  }
+
+  .hero__post {
+    align-self: flex-start;
+    max-width: 80%;
+  }
+
+
+
+/* .nav-container {
+  max-width: 800px;
+} */
 }

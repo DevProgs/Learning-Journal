@@ -4,9 +4,70 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> 
+  <title>Learning Journal</title>
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  
+  <header>
+      <div class="flex-container container">
+        <div class="img-container">
+          <img class="main-image" src="/images/img.svg" alt="">
+          <p class="title">My learning journal</p>
+        </div>
+        <nav>
+          <ul class="flex-container">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <img class="portrait" src="images/portrait.png" alt="">
+        <h1 class="main__post--title">Hi there! My name is Roku and welcome to my learning journal.</h1>
+        <p class="main__post--content">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+        <h4 class="main__post--header">How I stay committed to learning</h4>
+        <p class="main__post--content">I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
+        <p class="main__post--content">While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
+        <h4 class="main__post--header">How I got started</h4>
+        <p class="main__post--content">I started simple and gradually grew my learning journal site. I would take notes about what I was learning. After each learning session, I'd use my notes to not only reflect on what I learned but also write short summaries of what I learned using my own words.</p>
+        <p class="main__post--content">That helped me grok what I was learning, and I realized that posting my learning summaries was also helping others learn and stay motivated.</p>
+      </section>
+    </main>
+
+    <section>
+    <div class="container">
+      <p class="recent__post">Recent Posts</p>
+      <div class="blog__post">
+            <img class="blog__image"src="images/article-image-03.png" alt="laptop on desk">
+            <p class="blog__date">July, 23, 2002</p>
+            <h2 class="blog__post--number">Blog one</h2>
+            <p class="blog__content">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+          </div>
+          <div class="blog__post">
+            <img class="blog__image"src="images/article-image-02.png" alt="person holding lightbulb">
+            <p class="blog__date">July, 23, 2002</p>
+            <h2 class="blog__post--number">Blog two</h2>
+            <p class="blog__content">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+          </div>
+          <div class="blog__post">
+            <img class="blog__image"src="images/article-image-01.png" alt="laptop on desk">
+            <p class="blog__date">July, 23, 2002</p>
+            <h2 class="blog__post--number">Blog three</h2>
+            <p class="blog__content">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+          </div>
+    </div>
+  </section>
+
+  <footer>
+      <p class="footer__title">My Learning Journal</p>
+      <p class="footer__copyright">Copyright ©2022</p>
+    </footer>
 </body>
 </html>

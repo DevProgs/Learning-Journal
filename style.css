@@ -88,6 +88,7 @@ a {
   padding-top: 4em;
 }
 
+
 .hero-text-container {
   display: flex;
   flex-direction: column;
@@ -193,6 +194,10 @@ a {
 
 .recent__post {
   text-align: center;
+}
+
+.portrait {
+  margin: 1.7em 0;
 }
 
 /* footer styles */

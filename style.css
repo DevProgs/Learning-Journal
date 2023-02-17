@@ -117,7 +117,7 @@ a {
 .hero__title,
 .blog__button,
 .footer__title,
-.recent__post {
+.recent__post--title {
   font-weight: 700;
 }
 
@@ -173,6 +173,7 @@ a {
 
 /* Featured blog styles "blog.html"*/
 
+
 .main__post--date {
   margin: 1em 0;
 }
@@ -191,8 +192,9 @@ a {
   margin-bottom: 1.25em;
 }
 
-.recent__post {
+.recent__post--title {
   text-align: center;
+  padding-bottom: 1.5em;
 }
 
 .portrait {
@@ -252,8 +254,8 @@ footer {
     max-width: 80ch;
   }
 
-
-  .blog {
+  .blog,
+  .recent__post--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -266,5 +268,17 @@ footer {
 
   .blog__button {
     margin: 1.8em auto 3.1em;
+  }
+
+  .main__post--content {
+    max-width: 100ch;
+  }
+
+  .recent__post--container {
+    padding-bottom: 3.125em;
+  }
+
+  .recent__post--section {
+    padding: 0;
   }
 }

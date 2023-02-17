@@ -105,6 +105,7 @@ a {
 .hero__date,
 .hero__post,
 .main__post--content,
+.about__me--content,
 .footer__copyright {
   font-weight: 400;
 }
@@ -123,7 +124,8 @@ a {
 
 .footer__title,
 .hero__title,
-.main__post--title {
+.main__post--title,
+.about__me--title {
   font-size: 2rem;
   letter-spacing: -0.03em;
   line-height: 108.2%;
@@ -131,7 +133,8 @@ a {
 }
 
 .hero__post,
-.main__post--content {
+.main__post--content,
+.about__me--content {
   font-size: 1rem;
   line-height: 1.25rem;
   max-width: 414px;
@@ -178,7 +181,8 @@ a {
   margin: 1em 0;
 }
 
-.main__post--title {
+.main__post--title,
+.about__me--title {
   margin-bottom: .5em;
 }
 
@@ -188,7 +192,9 @@ a {
 }
 
 .main__post--header,
-.main__post--content {
+.main__post--content,
+.about__me--content,
+.about__me--header {
   margin-bottom: 1.25em;
 }
 
@@ -244,7 +250,8 @@ footer {
 
  /* adjust these font sizes for tablets */
   .hero__title,
-  .main__post--title {
+  .main__post--title,
+  .about__me--title {
     font-size: 3rem;
     max-width: 100%;
   }
@@ -270,7 +277,8 @@ footer {
     margin: 1.8em auto 3.1em;
   }
 
-  .main__post--content {
+  .main__post--content,
+  .about__me--content {
     max-width: 100ch;
   }
 
@@ -281,4 +289,6 @@ footer {
   .recent__post--section {
     padding: 0;
   }
+
+  
 }

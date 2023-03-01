@@ -105,6 +105,7 @@ a {
 .hero__post,
 .main__post--content,
 .about__me--content,
+.about__me--title-content
 .footer__copyright {
   font-weight: 400;
 }
@@ -133,7 +134,8 @@ a {
 
 .hero__post,
 .main__post--content,
-.about__me--content {
+.about__me--content,
+.about__me--title-content {
   font-size: 1rem;
   line-height: 1.25rem;
   max-width: 414px;
@@ -141,13 +143,12 @@ a {
 
 /* Blog section */
 
-.blog {
-  /* padding: 2.125em 0 2.8em; */
-}
+/* .blog {
+  padding: 2.125em 0 2.8em;
+} */
 
 .blog__image,
 .main__post--image {
-  /* margin-top: 2.18em; */
   margin-bottom: .875em;
   width: 100%;
   border-radius: 3px;
@@ -193,6 +194,7 @@ a {
 .main__post--header,
 .main__post--content,
 .about__me--content,
+.about__me--title-content,
 .about__me--header {
   margin-bottom: 1.25em;
 }
@@ -224,6 +226,8 @@ footer {
 .footer__copyright {
   font-size: .75rem;
 }
+
+/* about page styles */
 
 
 /* Need to adjust this due to text overflow at 375px screensize */
@@ -272,16 +276,16 @@ footer {
     margin-bottom: 0;
   }
 
-  /* .blog__button {
-    margin: 1.8em auto 3.1em;
-  } */
-
   .main__post--content,
   .about__me--content {
     max-width: 100ch;
   }
 
+  .recent__post--title {
+    font-size: 1.5rem;
+  }
   .recent__post--container {
+    padding-top: 0;
     padding-bottom: 3.125em;
   }
 
@@ -293,17 +297,27 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* outline: 2px solid red; */
     padding-top: 2.5em;
   }
 
-  .about__container--image {
-    flex-basis: 40%;
+  .about__container--content {
+    padding-left: 2em;
   }
+
 
   .about__me--title {
     font-size: 2.25rem;
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 40ch;
+  }
+
+  .about__me--title-content {
+    max-width: 90ch;
+  }
+
+  .about__me--more-content {
+    margin: 0 auto;
+    max-width: 52em;
   }
 
   

@@ -190,11 +190,6 @@ a {
 /* Featured blog styles "blog.html"*/
 
 
-
-.main__post--title {
-  /* width: 100%; */
-}
-
 .main__post--date {
   margin: 1em 0;
 }
@@ -251,7 +246,6 @@ footer {
 /* about page styles */
 
 
-/* Need to adjust this due to text overflow at 375px screensize */
 @media (max-width: 375px) {
   .hero {
     height: 45vh;
@@ -279,8 +273,7 @@ footer {
     font-size: 1rem;
   }
 
-  
- /* adjust these font sizes for tablets */
+
   .hero__title,
   .main__post--title {
     font-size: 3rem;
@@ -331,7 +324,6 @@ footer {
   .about__container--content {
     padding-left: 2em;
   }
-
 
   .about__me--title {
     font-size: 2.25rem;

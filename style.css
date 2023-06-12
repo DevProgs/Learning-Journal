@@ -51,11 +51,18 @@ a {
 
 .container,
 .hero-text-container,
-.blog {
+.blog,
+.intro_container {
   width: 90%;
   max-width: 1085px;
   margin: 0 auto;
 }
+
+/* .intro_container { */
+  /* width: 100%; */
+/* } */
+
+
 
 .flex-container,
 .img-container {
@@ -84,7 +91,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding-top: 6em;
+  padding: 5em 0;
 }
 
 
@@ -138,14 +145,20 @@ a {
 .about__me--title-content {
   font-size: 1rem;
   line-height: 1.25rem;
+}
+
+.hero__post {
   max-width: 414px;
+}
+
+.about__me--content,
+.about__me--title-content,
+.main__post--content {
+  max-width: 700px;
 }
 
 /* Blog section */
 
-/* .blog {
-  padding: 2.125em 0 2.8em;
-} */
 
 .blog__image,
 .main__post--image {
@@ -237,6 +250,12 @@ footer {
   }
 }
 
+@media (max-width: 400px) and (max-width: 899px) {
+  .about__container {
+    margin: 0 auto;
+  }
+}
+
 @media (min-width: 900px) {
   .hero {
     padding: 0;
@@ -307,7 +326,6 @@ footer {
 
   .about__me--title {
     font-size: 2.25rem;
-    /* max-width: 100%; */
     max-width: 40ch;
   }
 
@@ -319,6 +337,4 @@ footer {
     margin: 0 auto;
     max-width: 52em;
   }
-
-  
 }

@@ -29,7 +29,8 @@ section {
   padding-top: 3.5em;
 }
 
-img {
+img,
+.hero-img {
   display: block;
   max-width: 100%;
 }
@@ -50,7 +51,7 @@ a {
 }
 
 .container,
-.hero-text-container,
+.hero-container,
 .blog,
 .intro_container {
   width: 90%;
@@ -81,7 +82,7 @@ a {
 /* hero styles */
 
 .hero {
-  background: url(images/hero-image.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(images/hero-image.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,12 +91,27 @@ a {
 }
 
 
-.hero-text-container {
+.hero-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  flex-wrap: wrap;
   height: 100%;
   padding-bottom: 1.5em;
+}
+
+.hero-text {
+  max-width: 450px;
+}
+
+.hero-content--container {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.hero-img {
+  display: none;
 }
 
 .hero__date,
@@ -264,7 +280,7 @@ footer {
     height: 100vh;
   }
 
-  .hero-text-container {
+  .hero-container {
     justify-content: center;
   }
 
@@ -284,6 +300,7 @@ footer {
     align-self: flex-start;
     max-width: 80ch;
   }
+
 
   .blog,
   .recent__post--container {
@@ -342,5 +359,20 @@ footer {
   .main__post,
   .main__content-container {
     padding: 0 0 1em 3em;
+  }
+
+  .hero-text {
+    max-width: 450px;
+  }
+
+  .hero-content--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-img {
+    display: block;
+    width: 350px;
   }
 }

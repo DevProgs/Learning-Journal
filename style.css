@@ -25,9 +25,6 @@ header {
 }
 
 /* Added this due to the fixed navbar */
-section {
-  padding-top: 3.5em;
-}
 
 img,
 .hero-img {
@@ -50,9 +47,19 @@ a {
   cursor: pointer;
 }
 
+
+
+.hero-section,
+.blog,
+.entry,
+.intro {
+  padding-top: 3.5em;
+}
+
 .container,
 .hero-container,
 .blog,
+.view-more--container,
 .intro_container {
   width: 90%;
   max-width: 1085px;
@@ -259,8 +266,21 @@ footer {
   font-size: .75rem;
 }
 
-/* about page styles */
 
+/* Animation styles */
+
+.hidden {
+  display: none;
+}
+
+.view-more--animation {
+  animation: fadeIn .5s linear forwards
+}
+
+@keyframes fadeIn {
+ 0% { opacity:0; }
+ 100% { opacity:1; } 
+}
 
 @media (max-width: 375px) {
   .hero {
@@ -301,8 +321,13 @@ footer {
     max-width: 80ch;
   }
 
+  .view-more--container {
+    padding-top: 2.5em;
+  }
+
 
   .blog,
+  .view-more--container,
   .recent__post--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

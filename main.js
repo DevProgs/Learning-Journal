@@ -4,12 +4,11 @@ const viewMoreContainer = document.querySelector('.view-more--container');
 
 
 viewMoreBtn.addEventListener('click', () => {
-  viewMore.classList.toggle('hidden');
-  if (viewMore.classList.contains('hidden')) {
-    viewMoreBtn.textContent = 'View More'
-  } else {
-    viewMoreBtn.textContent = 'View Less'
-  }
-  viewMoreContainer.classList.add('view-more--animation');
-});
+      viewMoreContainer.classList.toggle('expanded')
+      if (viewMoreContainer.classList.contains('expanded')) {
+            viewMoreBtn.textContent = 'View Less'
+      } else {
+            viewMoreBtn.textContent = "View More"
+      }
+})
 

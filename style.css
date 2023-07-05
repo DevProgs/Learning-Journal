@@ -230,7 +230,8 @@ a {
 
 .main__post--content,
 .blog__content,
-.about__me--content {
+.about__me--content,
+.about__me--title-content {
   font-size: 1.15rem;
   line-height: 1.4em;
 }
@@ -256,10 +257,6 @@ a {
   margin: 1.7em 0;
 }
 
-
-
-
-
 /* footer styles */
 
 footer {
@@ -278,6 +275,16 @@ footer {
   font-size: .75rem;
 }
 
+
+@media (max-width: 900px) {
+  .portrait {
+    margin: 1.7em auto;
+  }
+
+  .about__me--title {
+    max-width: 100%;
+  }
+}
 
 @media( max-width: 890px) {
   .blog__button {

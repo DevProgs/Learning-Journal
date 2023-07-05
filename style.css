@@ -10,6 +10,7 @@
   --title-color: #0E0E0E;
   --links-color: #090909;
   --footer-color: #202020;
+  --blog-text--color: #505050;
 }
 
 body {
@@ -227,6 +228,16 @@ a {
 
 .main__post--header {
   font-size: 1.5rem;
+}
+
+.main__post--content,
+.blog__content {
+  font-size: 1.15rem;
+  line-height: 1.4em;
+}
+
+.blog__content {
+  color: var(--blog-text--color)
 }
 
 .main__post--header,
